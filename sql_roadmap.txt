@@ -1,0 +1,45 @@
+• Fundamentals: 
+o Introduction to Databases and SQL
+o Data Types (e.g., integer, string, date)
+o Understanding Relational Databases (tables, columns, rows)
+o The Data Manipulation Language (DML): 
+     SELECT statements (retrieving data)
+     WHERE clause (filtering data)
+     ORDER BY clause (sorting data)
+     LIMIT clause (specifying results)
+
+• Working with Data: 
+o INSERT statements (adding data)
+o UPDATE statements (modifying data)
+o DELETE statements (removing data)
+
+Intermediate (2-4 Weeks):
+• Building Queries: 
+o JOINs (connecting tables): 
+     INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+o Subqueries (queries within queries)
+o Filtering with advanced WHERE clauses (operators, functions)
+o GROUP BY clause (aggregating data)
+o Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+o HAVING clause (filtering grouped data)
+
+• Data Management: 
+o Creating and altering tables
+o Data types and constraints
+o Working with Views (virtual tables)
+
+Advanced :
+
+Performance Optimization:
+Indexing strategies
+Query optimization techniques
+Understanding execution plans
+Advanced Features:
+Window functions (advanced aggregations)
+Stored procedures and functions
+User-Defined Functions (UDFs)
+Triggers (automated actions)
+Database Administration:
+Security and access control
+Backups and recovery
+Database administration tools
