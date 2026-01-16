@@ -1,72 +1,70 @@
-📘 SQL for Data Science – Query Practice & Case Studies
+# SQL for Data Science 🚀
 
-This repository contains a structured collection of SQL practice problems, business-style queries, and case studies designed to demonstrate strong foundations in data analytics, business logic, and SQL problem-solving.
+**A structured, interview-ready SQL roadmap with hands-on queries and case studies, focused on real-world data analytics and data science use cases.**
 
-The focus is not just on writing queries, but on solving real analytical questions using SQL in a way that reflects how data teams work in practice.
+> Designed for Data Analyst / Data Scientist roles  
+> Covers Basics → Intermediate → Advanced → Data Cleaning  
+> Emphasis on business logic, analytical thinking, and performance-aware SQL
 
-📂 What’s inside this repository
-🔹 1. Employee & Department Analytics
+---
+## Functionalities Covered
 
-Using relational employee data, this section covers:
+✔ Strong SQL fundamentals (DDL, DML, Joins, Subqueries)  
+✔ Advanced analytics using Window Functions  
+✔ Real business-style queries  
+✔ Data cleaning & feature engineering in SQL  
+✔ Clean, readable, production-style SQL  
 
-Filtering and conditional logic
+---
 
-Salary analysis
+## 🗺️ SQL- Basics to Advanced (Structured Overview)
 
-Gender-based and department-wise comparisons
+| Level | Topic Area | Key Concepts | Core SQL Functions & Keywords |
+|------|-----------|--------------|-------------------------------|
+| **Basics** | DDL & DML | Tables, Inserts, Updates, Deletes | `CREATE`, `ALTER`, `DROP`, `INSERT`, `SELECT`, `UPDATE`, `DELETE` |
+| | Filtering & Sorting | Conditions, ordering | `WHERE`, `AND`, `OR`, `IN`, `BETWEEN`, `LIKE`, `ORDER BY`, `LIMIT` |
+| | Aggregations | Group analysis | `GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` |
+| | NULL Handling | Missing data | `IS NULL`, `COALESCE`, `NULLIF` |
+| **Intermediate** | Joins | Multi-table analysis | `INNER`, `LEFT`, `RIGHT`, `FULL`, `CROSS`, `SELF JOIN` |
+| | Subqueries | Nested logic | `IN`, `EXISTS`, `ANY`, `ALL`, Correlated Subqueries |
+| | Set Operations | Dataset comparison | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` |
+| | SQL Internals | Performance & behavior | Execution Order, `COUNT(*)` vs `COUNT(col)`, `DELETE` vs `TRUNCATE` |
+| **Advanced** | Window Functions | Analytical SQL | `OVER`, `PARTITION BY`, `ORDER BY` |
+| | Ranking | Ordering within groups | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `NTILE` |
+| | Time & Change Analysis | Trends & growth | `LAG`, `LEAD`, Running Total, Percent Change |
+| | Distribution Analysis | Statistical insights | Cumulative Sum, Percentiles, Quantiles |
+| **Data Cleaning** | Conditional Logic | Data transformation | `CASE WHEN`, Conditional Aggregation |
+| | Text Cleaning | String processing | `TRIM`, `UPPER`, `LOWER`, `SUBSTRING`, `REPLACE`, `CONCAT` |
+| | Date Handling | Temporal analysis | `DATE`, `YEAR`, `MONTH`, `DATEDIFF`, `CURRENT_DATE` |
+| | Feature Engineering | Data prep | Bucketing, Price Bands, One-Hot Encoding |
+| **Concepts** | Database Theory | Strong fundamentals | DBMS vs Database, Collation, Normalization |
 
-Hiring trends
+---
 
-Manager–employee relationships
+## 🧠 How SQL Is Used in This Repo
 
-Ranking and second-highest salary logic
+- Business-first problem framing
+- Clean, readable SQL (interview & production ready)
+- Focus on *why* a query is written, not just *how*
+- Handles edge cases (NULLs, duplicates, anti-joins)
 
-Department-level aggregations
+---
 
-Examples of business questions answered:
+## 📂 Repository Structure
 
-Which departments pay above the company average?
+├── Basics_SQL.sql
+├── Intermediate_SQL.sql
+├── Advanced_SQL_Window_Functions.sql
+├── Data_Cleaning_SQL.sql
+├── Case_Studies/
+│ ├── Sales_Analytics.sql
+│ ├── Employee_Insights.sql
+│ └── Insurance_Analysis.sql
+├── Datasets/ (schema & samples only)
+└── README.md
 
-Do male employees earn more than female employees in a department?
+## 👤 About Me
 
-Which departments have the smallest salary ranges?
-
-How many people report to each manager?
-
-🔹 2. Insurance & Healthcare Analytics
-
-Using a healthcare insurance dataset, this section focuses on:
-
-Customer filtering using medical and demographic attributes
-
-Risk-based segmentation
-
-Regional analysis
-
-Medical statistics
-
-Examples:
-
-Which patients fall into high-BMI risk bands?
-
-What are the max and min blood pressure values for diabetic patients?
-
-How many unique patients come from non-southwest regions?
-
-🔹 3. SQL Skills Demonstrated
-
-This repository demonstrates:
-
-WHERE, GROUP BY, HAVING
-
-Aggregate functions (SUM, AVG, MAX, MIN, COUNT)
-
-Window functions (COUNT() OVER, ranking logic)
-
-Subqueries
-
-Sorting and filtering
-
-Data exploration and business logic translation
-
-All queries are written in a way that reflects real interview and job-level SQL usage, not just textbook syntax.
+**Swayam Jaiswal**  
+Statistics graduate with hands-on experience in SQL, analytics, and data science projects.  
+Focused on turning data into actionable business insights.
