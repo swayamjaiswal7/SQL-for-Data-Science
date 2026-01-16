@@ -216,7 +216,6 @@ HAVING SUM(quantity) > (SELECT
 
 Is faster on large tables
 
-Is what strong candidates use
 */
 
 SELECT DISTINCT
@@ -241,4 +240,4 @@ WHERE
     p.ProductID NOT IN (SELECT 
             ProductID
         FROM
-            order_details));
+            order_details ));
