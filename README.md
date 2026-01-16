@@ -2,7 +2,6 @@
 
 **A structured, interview-ready SQL roadmap with hands-on queries and case studies, focused on real-world data analytics and data science use cases.**
 
-> Designed for Data Analyst / Data Scientist roles  
 > Covers Basics → Intermediate → Advanced → Data Cleaning  
 > Emphasis on business logic, analytical thinking, and performance-aware SQL
 
@@ -52,7 +51,7 @@
 
 ## 📂 Repository Structure
 
-''' ├── Basics_SQL.sql 
+├── Basics_SQL.sql 
 ├── Intermediate_SQL.sql
 ├── Advanced_SQL_Window_Functions.sql
 ├── Data_Cleaning_SQL.sql
@@ -62,7 +61,6 @@
 │ └── Insurance_Analysis.sql
 ├── Datasets/ (schema & samples only)
 └── README.md
-'''
 ## 👤 About Me
 
 **Swayam Jaiswal**  
