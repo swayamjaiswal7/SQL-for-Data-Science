@@ -50,17 +50,18 @@
 ---
 
 ## 📂 Repository Structure
-
-├── Basics_SQL.sql 
+```
+├── Basics_SQL.sql
 ├── Intermediate_SQL.sql
 ├── Advanced_SQL_Window_Functions.sql
 ├── Data_Cleaning_SQL.sql
 ├── Case_Studies/
-│ ├── Sales_Analytics.sql
-│ ├── Employee_Insights.sql
-│ └── Insurance_Analysis.sql
+│   ├── Sales_Analytics.sql
+│   ├── Employee_Insights.sql
+│   └── Insurance_Analysis.sql
 ├── Datasets/ (schema & samples only)
 └── README.md
+```
 ## 👤 About Me
 
 **Swayam Jaiswal**  
