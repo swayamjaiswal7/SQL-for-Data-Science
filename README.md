@@ -52,7 +52,7 @@
 
 ## 📂 Repository Structure
 
-├── Basics_SQL.sql
+''' ├── Basics_SQL.sql 
 ├── Intermediate_SQL.sql
 ├── Advanced_SQL_Window_Functions.sql
 ├── Data_Cleaning_SQL.sql
@@ -62,7 +62,7 @@
 │ └── Insurance_Analysis.sql
 ├── Datasets/ (schema & samples only)
 └── README.md
-
+'''
 ## 👤 About Me
 
 **Swayam Jaiswal**  
